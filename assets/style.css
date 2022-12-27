@@ -155,3 +155,18 @@ p{
 .left-image-right-card .content-wrapper .tertiary-btn{
     margin-right: 20px;
 }
+.blog-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog .blog-row .blog-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.blog .blog-row .blog-column img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
