@@ -376,7 +376,10 @@ p{
     .navbar ul{
         display: none;
     }
-    .navbar .btn-group{
+    .main{
+        background-size: 100% 100%;
+    }
+    .main_header_wrapper .btn-group{
         display: flex;
     }
     .btn-group .btn{
